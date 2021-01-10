@@ -335,9 +335,9 @@ A: run autoroute route -s 172.18.1.0 -n 255.255.255.0
 Q: Additionally, we can start a socks4a proxy server out of this session. Background our current meterpreter session and run the command `search server/socks4a`. What is the full path to the socks4a auxiliary module?
 
 Answer format: *********/******/*******
-A: 
+A: auxiliary/server/socks4a
 
 Q: Once we've started a socks server we can modify our /etc/proxychains.conf file to include our new server. What command do we prefix our commands (outside of Metasploit) to run them through our socks4a server with proxychains?
 
 Answer format: ***********
-A:
+A: proxychains

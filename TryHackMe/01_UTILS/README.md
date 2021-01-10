@@ -14,7 +14,7 @@ sudo openvpn /path-to-file/file-name.ovpn
 MY CONNECTION (mrwolfyu)
 
 ```shell
-sudo openvpn $HOME/Documents/CTF/TryHackMe/01_UTILS/mrwolfyu.ovpn
+sudo openvpn $HOME/Documents/CTFSec/mrwolfyu.ovpn
 ```
 
 #### Task 6
