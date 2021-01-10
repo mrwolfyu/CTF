@@ -1,6 +1,6 @@
 # [Metasploit Room](https://tryhackme.com/room/rpmetasploit)
 
-Website for metasploit (download and install): <https://tryhackme.com/room/rpmetasploit>
+Website for metasploit (download and install): <https://www.metasploit.com/>
 
 ## Task 2
 
