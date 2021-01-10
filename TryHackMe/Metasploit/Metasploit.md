@@ -42,7 +42,7 @@ Q: We'll revisit these next two commands shortly, however, they're two of the mo
 
 A: set
 
-Q: Metasploit supports the use of global variables, something which is incredibly useful when you're specifically focusing on a single box. What command changes the value of a variable globally? 
+Q: Metasploit supports the use of global variables, something which is incredibly useful when you're specifically focusing on a single box. What command changes the value of a variable globally?
 
 A: setg
 
