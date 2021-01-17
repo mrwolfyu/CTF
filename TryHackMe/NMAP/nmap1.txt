@@ -1,0 +1,7 @@
+# Nmap 7.80 scan initiated Sun Jan 17 17:46:04 2021 as: nmap -vv -Pn -sX -p1-999 -oN nmap1.txt 10.10.4.145
+Nmap scan report for 10.10.4.145
+Host is up, received user-set.
+All 999 scanned ports on 10.10.4.145 are open|filtered because of 999 no-responses
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Jan 17 17:49:26 2021 -- 1 IP address (1 host up) scanned in 201.34 seconds
