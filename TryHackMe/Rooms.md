@@ -15,7 +15,6 @@ TODO FIRST:
 
 NEXT:
 
-* [ ] [Nmap](https://tryhackme.com/room/furthernmap)
 * [ ] [Blue](https://tryhackme.com/room/blue)
 
 DONE:
@@ -24,11 +23,4 @@ DONE:
 * [x] [Tutorial](https://tryhackme.com/room/tutorial)
 * [x] [Starting Out In Cyber Sec](https://tryhackme.com/room/startingoutincybersec)
 * [x] [Metasploit](https://github.com/mrwolfyu/CTF/tree/master/TryHackMe/Metasploit)  -->  [BADGE](https://tryhackme.com/mrwolfyu/badges/metasploitable)
-
-\newpage
-
-<div style="page-break-after: always"></div>
-
-## test
-
-asd
+* [X] [Nmap](https://github.com/mrwolfyu/CTF/tree/master/TryHackMe/NMAP)  -->  [BADGE](https://tryhackme.com/mrwolfyu/badges/metasploitable)

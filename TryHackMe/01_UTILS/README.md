@@ -46,7 +46,7 @@ no answer
 
 TODO:
 
-* [ ] [Metasploit](https://tryhackme.com/room/rpmetasploit)
+* [x] [Metasploit](https://tryhackme.com/room/rpmetasploit)
 * [ ] [Blue](https://tryhackme.com/room/blue)
 * [ ] Other Rooms
   
