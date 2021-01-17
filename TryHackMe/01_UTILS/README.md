@@ -8,14 +8,14 @@
 
 Connectiong to tryhackme.com vpn
 
-```shell
+```sh
 sudo apt install openvpn
 sudo openvpn /path-to-file/file-name.ovpn
 ```
 
 MY CONNECTION (mrwolfyu)
 
-```shell
+```sh
 sudo openvpn $HOME/Documents/CTF-ROOT/mrwolfyu.ovpn
 ```
 
@@ -27,7 +27,7 @@ answer: flag{connection_verified}
 
 #### Task 1: Deploy your first machine
 
-```shell
+```sh
 Answer: flag{connection_verified}
 ```
 
