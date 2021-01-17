@@ -13,14 +13,11 @@ TODO FIRST:
 * [ ] [Advent of Cyber 2](https://tryhackme.com/room/adventofcyber2)
 * [ ] [Advent of Cyber](https://tryhackme.com/room/25daysofchristmas)
 
-NEXT:
-
-* [ ] [Blue](https://tryhackme.com/room/blue)
-
-DONE:
+DONE / DOING:
 
 * [x] [OpenVPN](https://tryhackme.com/room/openvpn)
 * [x] [Tutorial](https://tryhackme.com/room/tutorial)
 * [x] [Starting Out In Cyber Sec](https://tryhackme.com/room/startingoutincybersec)
 * [x] [Metasploit](https://github.com/mrwolfyu/CTF/tree/master/TryHackMe/Metasploit)  -->  [BADGE](https://tryhackme.com/mrwolfyu/badges/metasploitable)
-* [X] [Nmap](https://github.com/mrwolfyu/CTF/tree/master/TryHackMe/NMAP)  -->  [BADGE](https://tryhackme.com/mrwolfyu/badges/metasploitable)
+* [X] [Nmap](https://github.com/mrwolfyu/CTF/tree/master/TryHackMe/NMAP)
+* [ ] [Blue](https://tryhackme.com/room/blue)
