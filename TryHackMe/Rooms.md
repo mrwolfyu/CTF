@@ -19,5 +19,5 @@ DONE / DOING:
 * [x] [Tutorial](https://tryhackme.com/room/tutorial)
 * [x] [Starting Out In Cyber Sec](https://tryhackme.com/room/startingoutincybersec)
 * [x] [Metasploit](https://github.com/mrwolfyu/CTF/tree/master/TryHackMe/Metasploit)  -->  [BADGE](https://tryhackme.com/mrwolfyu/badges/metasploitable)
-* [X] [Nmap](https://github.com/mrwolfyu/CTF/tree/master/TryHackMe/NMAP)
-* [ ] [Blue](https://tryhackme.com/room/blue)
+* [x] [Nmap](https://github.com/mrwolfyu/CTF/tree/master/TryHackMe/NMAP)
+* [x] [Blue](https://github.com/mrwolfyu/CTF/tree/master/TryHackMe/Blue)  --> [BADGE](https://tryhackme.com/mrwolfyu/badges/blue)
