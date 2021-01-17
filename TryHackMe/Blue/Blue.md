@@ -266,6 +266,144 @@ A: Jon
 
 Q: Copy this password hash to a file and research how to crack it. What is the cracked password?
 
-A: 
+Go to [crackstation.net](https://crackstation.net/)
+paste: ffb43f0de35be4d9917ac0cc8ad57f8d
 
-## Task 5 Find flags!
+A: alqfna22
+
+## Task 5 Find flags
+
+Q: Flag1? This flag can be found at the system root.
+
+```sh
+C:\>dir f*
+dir f*
+ Volume in drive C has no label.
+ Volume Serial Number is E611-0B66
+
+ Directory of C:\
+
+03/17/2019  01:27 PM                24 flag1.txt
+               1 File(s)             24 bytes
+               0 Dir(s)  20,618,887,168 bytes free
+
+C:\>more flag1.txt
+more flag1.txt
+flag{access_the_machine}
+
+C:\>
+```
+
+A: flag{access_the_machine}
+
+Q: Flag2? This flag can be found at the location where passwords are stored within Windows.
+
+*Errata: Windows really doesn't like the location of this flag and can occasionally delete it. It may be necessary in some cases to terminate/restart the machine and rerun the exploit to find this flag. This relatively rare, however, it can happen. 
+
+```sh
+C:\Windows\system32>dir SAM
+dir SAM
+ Volume in drive C has no label.
+ Volume Serial Number is E611-0B66
+
+ Directory of C:\Windows\system32
+
+File Not Found
+
+C:\Windows\system32>cd config 
+cd config 
+
+C:\Windows\System32\config>cd SAM
+cd SAM
+The directory name is invalid.
+
+C:\Windows\System32\config>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is E611-0B66
+
+ Directory of C:\Windows\System32\config
+
+01/17/2021  11:58 AM    <DIR>          .
+01/17/2021  11:58 AM    <DIR>          ..
+12/12/2018  05:00 PM            28,672 BCD-Template
+01/17/2021  12:08 PM        18,087,936 COMPONENTS
+01/17/2021  12:07 PM           262,144 DEFAULT
+03/17/2019  01:32 PM                34 flag2.txt
+07/13/2009  08:34 PM    <DIR>          Journal
+03/17/2019  01:56 PM    <DIR>          RegBack
+03/17/2019  02:05 PM           262,144 SAM
+01/17/2021  12:07 PM           262,144 SECURITY
+01/17/2021  12:25 PM        40,632,320 SOFTWARE
+01/17/2021  12:23 PM        12,582,912 SYSTEM
+11/20/2010  08:41 PM    <DIR>          systemprofile
+12/12/2018  05:03 PM    <DIR>          TxR
+               8 File(s)     72,118,306 bytes
+               6 Dir(s)  20,616,282,112 bytes free
+
+C:\Windows\System32\config>cd SAM
+cd SAM
+The directory name is invalid.
+
+C:\Windows\System32\config>more flag2.txt
+more    flag2.txt
+flag{sam_database_elevated_access}
+
+C:\Windows\System32\config>
+```
+
+A: flag{sam_database_elevated_access}
+
+Q: flag3? This flag can be found in an excellent location to loot. After all, Administrators usually have pretty interesting things saved.
+
+```bat
+C:\Users>cd Jon
+cd Jon
+
+C:\Users\Jon>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is E611-0B66
+
+ Directory of C:\Users\Jon
+
+12/12/2018  09:13 PM    <DIR>          .
+12/12/2018  09:13 PM    <DIR>          ..
+12/12/2018  09:13 PM    <DIR>          Contacts
+12/12/2018  09:49 PM    <DIR>          Desktop
+12/12/2018  09:49 PM    <DIR>          Documents
+12/12/2018  09:13 PM    <DIR>          Downloads
+12/12/2018  09:13 PM    <DIR>          Favorites
+12/12/2018  09:13 PM    <DIR>          Links
+12/12/2018  09:13 PM    <DIR>          Music
+12/12/2018  09:13 PM    <DIR>          Pictures
+12/12/2018  09:13 PM    <DIR>          Saved Games
+12/12/2018  09:13 PM    <DIR>          Searches
+12/12/2018  09:13 PM    <DIR>          Videos
+               0 File(s)              0 bytes
+              13 Dir(s)  20,619,870,208 bytes free
+
+C:\Users\Jon>cd Documents
+cd Documents
+
+C:\Users\Jon\Documents>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is E611-0B66
+
+ Directory of C:\Users\Jon\Documents
+
+12/12/2018  09:49 PM    <DIR>          .
+12/12/2018  09:49 PM    <DIR>          ..
+03/17/2019  01:26 PM                37 flag3.txt
+               1 File(s)             37 bytes
+               2 Dir(s)  20,619,870,208 bytes free
+
+C:\Users\Jon\Documents>more flag3.txt
+more flag3.txt
+flag{admin_documents_can_be_valuable}
+
+C:\Users\Jon\Documents>
+```
+
+A: flag{admin_documents_can_be_valuable}
