@@ -340,7 +340,7 @@ Q: Perform a TCP SYN scan on the first 5000 ports of the target -- how many port
 
 ```sh
 sudo nmap -vv -sS -p1-5000 10.10.4.145 -Pn -oN nmap2.txt
-!!! Crashies the systemp
+### Machine crashed here !!!!
 ```
 
 A: 5
