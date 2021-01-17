@@ -23,4 +23,4 @@ DONE:
 * [x] [OpenVPN](https://tryhackme.com/room/openvpn)
 * [x] [Tutorial](https://tryhackme.com/room/tutorial)
 * [x] [Starting Out In Cyber Sec](https://tryhackme.com/room/startingoutincybersec)
-* [x] [Metasploit](https://tryhackme.com/room/rpmetasploit)  -->  [BADGE](https://tryhackme.com/mrwolfyu/badges/metasploitable)
+* [x] [Metasploit](https://github.com/mrwolfyu/CTF/tree/master/TryHackMe/Metasploit)  -->  [BADGE](https://tryhackme.com/mrwolfyu/badges/metasploitable)
