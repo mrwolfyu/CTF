@@ -64,6 +64,9 @@ A: save
 
 ## Task 4
 
+Metasploit framework modules:
+![Metasploit framework modules](./iYuiWvP.png)
+
 Q: Easily the most common module utilized, which module holds all of the exploit code we will use?
 
 A: exploit
